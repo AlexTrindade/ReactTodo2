@@ -17,7 +17,7 @@ var AddTodo = React.createClass({
     return (
       <div className="alx-form-margin">
           <form onSubmit={this.handleSubmit}>
-            <input type="text" ref="location" placeholder="What do you need todo?" ref="todoText"/>
+            <input type="text" placeholder="What do you need todo?" ref="todoText"/>
             <button className="button expanded">Add Todo</button>
           </form>
         </div>
